@@ -1,0 +1,19 @@
+
+public class Integers10{
+	public static void main(String args[]) {
+    
+    int[] tenMult = {10,20,30,40,50,60};
+    for(int x : tenMult){
+        System.out.print(x + " ");
+    }
+    
+    int z = tenMult.length - 1;
+    for(int x : tenMult){
+        int y = tenMult[z]; 
+        System.out.print(y + " ");
+        z -= 1;
+    }
+    
+	    
+	}
+}
