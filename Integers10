@@ -13,12 +13,13 @@ public class Integers10{
         System.out.print(y + " ");
         z -= 1;
     }
-    
-    int total = 0;
+    int total = 0, average, count = 0;
     for(int x : tenMult){
     	total += x;
+    	count ++;
     }
-    System.out.print(total);
-	    
+    average = total / count;
+    System.out.print(total + " ");
+	System.out.print(average);
 	}
 }
