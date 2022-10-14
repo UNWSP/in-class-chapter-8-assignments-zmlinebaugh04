@@ -1,0 +1,20 @@
+
+public class Integers2{
+	public static void main(String args[]) {
+    double[] powers = new double[5];
+    
+    for (int i = 0; i <powers.length; i++){
+        powers[i] = Math.pow(2, i + 1);
+    }
+    
+    for (double i : powers){
+        System.out.print(i + " ");
+    }
+    
+    for(int i = powers.length - 1; i >= 0; i--){
+        double x = powers[i];
+        System.out.print(x + " ");
+    }
+        
+	}
+}
